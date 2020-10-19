@@ -1,5 +1,5 @@
 function getCurrentWeather() {
-    fetch("http://api.openweathermap.org/data/2.5/weather?q=Lagos&appid=24bfe7a535e8bfa7655837c09515da58")
+    fetch("https://api.openweathermap.org/data/2.5/weather?q=Lagos&appid=24bfe7a535e8bfa7655837c09515da58")
     .then(response => response.json())
         .then(data => {
             console.log(data);
